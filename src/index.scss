@@ -1,1 +1,5 @@
 @import url(../vendor/normalize.css);
+@import "./blocks/page/page.scss", "./blocks/header/header.scss", "./blocks/logo/logo.scss", "./blocks/btn/btn.scss",
+  "./blocks/btn/_active/btn_active.scss", "./blocks/dots/dots.scss", "./blocks/dots/_bottom/dots_bottom.scss",
+  "./blocks/dots/_top/dots_top.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans&display=swap");

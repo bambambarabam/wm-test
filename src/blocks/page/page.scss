@@ -1,0 +1,27 @@
+$header-bg: linear-gradient(51.78deg, #5540bf 28.44%, #afa1f9 99.76%);
+$active-btn-bg: #fff;
+$transparent-btn-bg: transparent;
+$last-block-bg: linear-gradient(78.94deg, #5540bf 36.07%, #afa1f9 99.58%);
+
+$dark-blue: #5540bf;
+$yellow: #ffd100;
+$grey: #C4C4C4;
+$chat-heading: rgba(51, 51, 51, 0.5);
+$chat-names: #333;
+
+$montserrat: "Montserrat", sans-serif;
+$opensans: "Open Sans", sans-serif;
+$white-text: #fff;
+$purple-text: #5540bf;
+
+.page {
+  max-width: 1440px;
+
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

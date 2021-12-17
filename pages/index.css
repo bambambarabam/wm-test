@@ -1,3 +1,251 @@
 @import url(../vendor/normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans&display=swap");
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header__main {
+  display: flex;
+}
+
+.header__line {
+  max-width: calc(100% - 344px);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.header__title {
+  margin: 0;
+  width: 522px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+  line-height: 52px;
+}
+
+.header__subtitle {
+  max-width: 522px;
+  margin: 35px 0 0 0;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.header__subline {
+  width: 467px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+.header__links {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 31px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__chat-heading {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 22px;
+  margin: 0;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.header__chat-item {
+  display: flex;
+  margin: 0 0 7px 15px;
+}
+
+.header__chat-names {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 22px;
+  color: #333;
+}
+
+.header__chat-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__btn {
+  width: 390px;
+  margin: 65px 0 18px 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__pics {
+  width: 616px;
+  height: 541px;
+  position: relative;
+}
+
+.header__chat-icon {
+  height: 42px;
+  width: 42px;
+  margin-right: 19px;
+}
+
+.header__chat-dots {
+  color: #C4C4C4;
+}
+
+.header__girl {
+  background-image: url(../../../../images/girl.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px;
+  width: 243px;
+  height: 361px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 0;
+}
+
+.header__boy {
+  background-image: url(../../../../images/boy.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px;
+  width: 243px;
+  height: 361px;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  z-index: 0;
+}
+
+.header__chat {
+  height: 237px;
+  width: 179px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(51, 51, 51, 0.2);
+  position: absolute;
+  bottom: 40px;
+  left: 115px;
+  z-index: 1;
+}
+
+.header__chat-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 12px 10px 15px;
+}
+
+.header__ellipse {
+  height: 121px;
+  width: 121px;
+  border-radius: 50%;
+  background: #5540bf;
+  position: absolute;
+  top: 130px;
+  right: 0;
+}
+
+.header__text {
+  width: 522px;
+  margin: 0 66px 0 172px;
+}
+
+.header__dots-block {
+  display: flex;
+}
+
+.header {
+  height: 100vh;
+  min-height: 1080px;
+  background: linear-gradient(51.78deg, #5540bf 28.44%, #afa1f9 99.76%);
+  color: #fff;
+  position: relative;
+}
+
+.logo_place_header {
+  display: flex;
+  margin: 0 0 145px 0;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.btn {
+  width: 185px;
+  height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+  line-height: 15px;
+  border-radius: 5px;
+  border: solid 1px #fff;
+  background: transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn_active {
+  color: #5540bf;
+  background: #fff;
+}
+
+.dots {
+  width: 86px;
+  height: 70px;
+  background: transparent;
+  background-size: 15px 15px;
+  background-position: -120px -120px;
+  background-repeat: repeat;
+}
+
+.dots_bottom {
+  position: absolute;
+  left: 235px;
+  bottom: 14px;
+  background-image: radial-gradient(#ffd100 2.5px, transparent 0);
+}
+
+.dots_top {
+  margin-right: 5px;
+  background-image: radial-gradient(#fff 2.5px, transparent 0);
+}
 
 /*# sourceMappingURL=index.css.map */
