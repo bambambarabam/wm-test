@@ -124,7 +124,7 @@
 }
 
 .header__girl {
-  background-image: url(../../../../images/girl.png);
+  background-image: url(../images/girl.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -138,7 +138,7 @@
 }
 
 .header__boy {
-  background-image: url(../../../../images/boy.png);
+  background-image: url(../images/boy.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -164,7 +164,7 @@
 .header__call-cam {
   width: 18px;
   height: 12px;
-  background-image: url(../../../../images/cam.png);
+  background-image: url(../images/cam.png);
 }
 
 .header__call-time {
@@ -237,7 +237,7 @@
 .header__triangle {
   width: 740px;
   height: 740px;
-  background-image: url(../../../../images/triangle.png);
+  background-image: url(../images/triangle.png);
   background-size: contain;
   transform: rotate(-120deg);
   position: absolute;
