@@ -1,8 +1,8 @@
-.header__pics{
-  // display: flex;
+@import "../__dots-block/header__dots-block.scss", "../__ellipse/header__ellipse.scss", "../__chat/header__chat.scss",
+  "../__girl/header__girl.scss", "../__boy/header__boy.scss", "../__call/header__call.scss";
+
+  .header__pics {
   width: 616px;
   height: 541px;
   position: relative;
-  // top: 10px;
-  // left: 70px;
 }

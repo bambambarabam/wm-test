@@ -1,0 +1,10 @@
+.header__triangle {
+  width: 740px;
+  height: 740px;
+  background-image: url(../../../../images/triangle.png);
+  background-size: contain;
+  transform: rotate(-120deg);
+  position: absolute;
+  top: -351px;
+  left: -268px;
+}

@@ -1,4 +1,5 @@
-.header__main{
+@import "../__text/header__text.scss", "../__pics/header__pics.scss";
+
+.header__main {
   display: flex;
-  // align-items: center;
 }

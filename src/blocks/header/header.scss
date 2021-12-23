@@ -1,11 +1,4 @@
-@import "./__main/header__main.scss", "./__line/header__line.scss", "./__title/header__title.scss",
-  "./__subtitle/header__subtitle.scss", "./__subline/header__subline.scss", "./__links/header__links.scss",
-  "./__chat-heading/header__chat-heading.scss", "./__chat-item/header__chat-item.scss",
-  "./__chat-names/header__chat-names.scss", "./__chat-list/header__chat-list.scss", "./__btn/header__btn.scss",
-  "./__list/header__list.scss", "./__pics/header__pics.scss", "./__chat-icon/header__chat-icon.scss",
-  "./__chat-dots/header__chat-dots.scss", "./__girl/header__girl.scss", "./__boy/header__boy.scss",
-  "./__chat/header__chat.scss", "./__chat-line/header__chat-line.scss", "./__ellipse/header__ellipse.scss",
-  "./__text/header__text.scss", "./__dots-block/header__dots-block.scss";
+@import "./__main/header__main.scss", "./__line/header__line.scss", "../header/__triangle/header__triangle.scss";
 
 .header {
   height: 100vh;
@@ -13,4 +6,5 @@
   background: $header-bg;
   color: $white-text;
   position: relative;
+  overflow: hidden;
 }

@@ -11,18 +11,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.header__main {
-  display: flex;
-}
-
-.header__line {
-  max-width: calc(100% - 344px);
-  display: flex;
-  justify-content: space-between;
-  padding-top: 40px;
-  margin: 0 auto;
-}
-
 .header__title {
   margin: 0;
   width: 522px;
@@ -41,6 +29,15 @@
   line-height: 28px;
 }
 
+.header__btn {
+  width: 390px;
+  margin: 65px 0 18px 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
 .header__subline {
   width: 467px;
   font-family: "Open Sans", sans-serif;
@@ -51,13 +48,29 @@
   margin: 0;
 }
 
-.header__links {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  line-height: 17px;
-  padding-left: 31px;
-  text-decoration: none;
-  color: #fff;
+.header__text {
+  width: 522px;
+  margin: 0 66px 0 172px;
+}
+
+.header__dots-block {
+  display: flex;
+}
+
+.header__ellipse {
+  height: 121px;
+  width: 121px;
+  border-radius: 50%;
+  background: #5540bf;
+  position: absolute;
+  top: 130px;
+  right: 0;
+}
+
+.header__chat-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 12px 10px 15px;
 }
 
 .header__chat-heading {
@@ -69,9 +82,25 @@
   color: rgba(51, 51, 51, 0.5);
 }
 
+.header__chat-dots {
+  color: #c4c4c4;
+}
+
+.header__chat-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .header__chat-item {
   display: flex;
   margin: 0 0 7px 15px;
+}
+
+.header__chat-icon {
+  height: 42px;
+  width: 42px;
+  margin-right: 19px;
 }
 
 .header__chat-names {
@@ -82,42 +111,16 @@
   color: #333;
 }
 
-.header__chat-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.header__btn {
-  width: 390px;
-  margin: 65px 0 18px 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-}
-
-.header__list {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.header__pics {
-  width: 616px;
-  height: 541px;
-  position: relative;
-}
-
-.header__chat-icon {
-  height: 42px;
-  width: 42px;
-  margin-right: 19px;
-}
-
-.header__chat-dots {
-  color: #C4C4C4;
+.header__chat {
+  height: 237px;
+  width: 179px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(51, 51, 51, 0.2);
+  position: absolute;
+  bottom: 40px;
+  left: 115px;
+  z-index: 1;
 }
 
 .header__girl {
@@ -148,41 +151,98 @@
   z-index: 0;
 }
 
-.header__chat {
-  height: 237px;
-  width: 179px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px rgba(51, 51, 51, 0.2);
-  position: absolute;
-  bottom: 40px;
-  left: 115px;
-  z-index: 1;
+.header__call-ellipse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #5eb9f3;
 }
 
-.header__chat-line {
+.header__call-cam {
+  width: 18px;
+  height: 12px;
+  background-image: url(../../../../images/cam.png);
+}
+
+.header__call-time {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 18px 0 2px 0;
+}
+
+.header__call-caption {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 0;
+  width: 74px;
+  text-align: center;
+}
+
+.header__call {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 176px;
+  position: absolute;
+  background-color: #9bd9f9;
+  box-shadow: 0px 0px 20px rgba(51, 51, 51, 0.2);
+  top: 112px;
+  right: 189px;
+  z-index: 0;
+}
+
+.header__pics {
+  width: 616px;
+  height: 541px;
+  position: relative;
+}
+
+.header__main {
+  display: flex;
+}
+
+.header__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__links {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 31px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__line {
+  max-width: calc(100% - 344px);
   display: flex;
   justify-content: space-between;
-  margin: 3px 12px 10px 15px;
+  padding-top: 40px;
+  margin: 0 auto;
 }
 
-.header__ellipse {
-  height: 121px;
-  width: 121px;
-  border-radius: 50%;
-  background: #5540bf;
+.header__triangle {
+  width: 740px;
+  height: 740px;
+  background-image: url(../../../../images/triangle.png);
+  background-size: contain;
+  transform: rotate(-120deg);
   position: absolute;
-  top: 130px;
-  right: 0;
-}
-
-.header__text {
-  width: 522px;
-  margin: 0 66px 0 172px;
-}
-
-.header__dots-block {
-  display: flex;
+  top: -351px;
+  left: -268px;
 }
 
 .header {
@@ -191,6 +251,7 @@
   background: linear-gradient(51.78deg, #5540bf 28.44%, #afa1f9 99.76%);
   color: #fff;
   position: relative;
+  overflow: hidden;
 }
 
 .logo_place_header {
