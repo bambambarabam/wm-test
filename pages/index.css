@@ -245,8 +245,53 @@
   left: -268px;
 }
 
+.header__tags-item {
+  height: 70px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  align-items: center;
+  border: 2px #fff solid;
+}
+
+.header__tags-label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 25px 50px 0;
+}
+
+.header__tags-list {
+  max-width: 906px;
+  height: 170px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+.header__tags-item_active {
+  border-color: #ffd100;
+}
+
+.header__tags-label_active {
+  color: #ffd100;
+}
+
+.header__tags {
+  display: flex;
+  height: 280px;
+  margin-top: 109px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .header {
-  height: 100vh;
   min-height: 1080px;
   background: linear-gradient(51.78deg, #5540bf 28.44%, #afa1f9 99.76%);
   color: #fff;

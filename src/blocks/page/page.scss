@@ -7,6 +7,7 @@ $dark-blue: #5540bf;
 $light-blue: #9bd9f9;
 $multiply-blue: #5eb9f3;
 
+$yellow-frame: #ffd100;
 $yellow: #ffd100;
 $grey: #c4c4c4;
 $chat-heading: rgba(51, 51, 51, 0.5);
@@ -15,11 +16,11 @@ $chat-names: #333;
 $montserrat: "Montserrat", sans-serif;
 $opensans: "Open Sans", sans-serif;
 $white-text: #fff;
+$white-frame: #fff;
 $purple-text: #5540bf;
 
 .page {
   max-width: 1440px;
-
   margin: 0 auto;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%;

@@ -1,0 +1,11 @@
+@import "../__tags-item/header__tags-item.scss", "../__tags-label/header__tags-label.scss",
+  "../__tags-list/header__tags-list.scss", "../__tags-item/_active/header__tags-item_active.scss",
+  "../__tags-label/_active/header__tags-label_active.scss";
+
+.header__tags {
+  display: flex;
+  height: 280px;
+  margin-top: 109px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+}
