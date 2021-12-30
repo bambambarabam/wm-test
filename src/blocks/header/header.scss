@@ -1,7 +1,7 @@
-@import "./__main/header__main.scss", "./__line/header__line.scss", "../header/__triangle/header__triangle.scss","../header/__tags/header__tags.scss";
+@import "./__main/header__main.scss", "./__line/header__line.scss", "./__triangle/header__triangle.scss",
+  "./__tags/header__tags.scss";
 
 .header {
-  // height: 100vh;
   min-height: 1080px;
   background: $header-bg;
   color: $white-text;
